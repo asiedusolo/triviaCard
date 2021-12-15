@@ -17,4 +17,12 @@ $(document).ready(() =>{
         $('.wrong-text-three').fadeOut('slow')
         $('.frown').show()
       })
+
+      $('.correct-answer').on('click', () => {
+        $('.frown').hide()
+        $('.smiley').show()
+        $('.wrong-text-one').fadeOut('slow')
+        $('.wrong-text-two').fadeOut('slow')
+        $('.wrong-text-three').fadeOut('slow')
+      })
   });
